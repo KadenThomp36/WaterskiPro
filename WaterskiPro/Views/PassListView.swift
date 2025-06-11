@@ -73,8 +73,6 @@ struct PassView: View {
                     showingEditSession.toggle()
                 }
             }
-            ToolbarItem {}
-            ToolbarTitleMenu()
         }
         .sheet(isPresented: $showingAddPass, content: {
             AddPassView(session: session)
@@ -137,9 +135,6 @@ extension PassView {
         }
         .navigationTitle("Passes")
         .toolbar {
-            ToolbarItem(placement: .navigationBarTrailing) {
-                EditButton()
-            }
             ToolbarItem {
                 Button(action: {
                     showingAddPass.toggle()

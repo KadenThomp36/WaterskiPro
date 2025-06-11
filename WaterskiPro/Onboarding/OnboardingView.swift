@@ -27,10 +27,8 @@ struct OnboardingView: View {
                                     Button("Continue") {
                                         action()
                                     }
-                                    .font(.system(size: 20, weight: .bold, design: .rounded))
-                                    .frame(width: 150, height: 50)
-                                    .background(.waterPrimary, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
-                                    .foregroundColor(.waterText)
+                                    .buttonStyle(CustomButtonStyle())
+                                    .frame(width: .infinity)
                                     .offset(y: 50) // Matches the height of the button
                                     .transition(.scale.combined(with: .opacity))
                                 }

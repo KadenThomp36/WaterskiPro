@@ -21,18 +21,15 @@ final class OnboardingManager: ObservableObject {
 
     func load() {
         items = [
-            .init(emoji: "🤝",
-                  title: "Join the crew",
-                  content: "In ex voluptate aute magna velit."),
-            .init(emoji: "❤️",
-                  title: "Support the crew",
-                  content: "In ex voluptate aute magna velit."),
-            .init(emoji: "🥳",
-                  title: "Celebrate the crew",
-                  content: "In ex voluptate aute magna velit."),
-            .init(emoji: "🥵",
-                  title: "Hot the crew",
-                  content: "In ex voluptate aute magna velit."),
+            .init(emoji: "🌊",
+                  title: "Hit the water!",
+                  content: "Track your rides, analyze your performance, and make every waterski session count."),
+            .init(emoji: "🛰️",
+                  title: "Track every run",
+                  content: "Use precise GPS to log your waterski sessions, speed, distance, and more."),
+            .init(emoji: "📈",
+                  title: "Visualize improvement",
+                  content: "View detailed stats, charts, and achievements as you improve over time."),
         ]
     }
 }

@@ -70,17 +70,23 @@ extension SessionView {
                                     SessionLinkView(session: session)
                                 }
                             }
-                            .onDelete(perform: deleteItems)
+                            .onDelete { offsets in
+                                deleteItems(offsets: offsets, in: sessionGroup)
+                            }
                         }
                 }
             }
+
         }
     }
 
-    private func deleteItems(offsets: IndexSet) {
+    private func deleteItems(offsets: IndexSet, in sessionGroup: [Session]) {
         withAnimation {
             for index in offsets {
-                user.sessions.remove(at: index)
+                let sessionToDelete = sessionGroup[index]
+                if let globalIndex = user.sessions.firstIndex(of: sessionToDelete) {
+                    user.sessions.remove(at: globalIndex)
+                }
             }
         }
     }

@@ -20,6 +20,13 @@ final class Session: ObservableObject {
     var notes: String?
     var location: Location?
     var active: Bool
+    
+    var sessionLength: DateComponents {
+        let calendar = Calendar.current
+        guard let endTime else { return calendar.dateComponents([.minute], from: startTime, to: Date()) }
+        let components = calendar.dateComponents([.hour, .minute], from: startTime, to: endTime)
+        return components
+    }
 
     var sessionType: SessionType
 

@@ -13,10 +13,10 @@ import SwiftUI
 struct AddPassView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
-    
+
     @AppStorage("speed") private var speed = "mph"
     @AppStorage("length") private var length = "feet"
-    
+
     @ObservedObject var session: Session
 
     @State private var timestamp: Date = Date()
@@ -123,8 +123,7 @@ struct AddPassView: View {
                     dismiss()
                 } label: {
                     Text("Save")
-                        .font(.largeTitle)
-                        .fontWeight(.semibold)
+                        .font(.system(size: 20, weight: .bold, design: .rounded))
                         .frame(maxWidth: .infinity)
                         .padding(-2.0)
                 }

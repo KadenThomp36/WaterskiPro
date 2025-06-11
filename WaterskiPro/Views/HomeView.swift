@@ -94,7 +94,6 @@ extension HomeView {
                 .navigationTitle("Record")
                 .tabItem { Label("Record", systemImage: "record.circle") }
                 .tag(2)
-            Text("Stats")
             StatsOverviewView(user: $loggedInUser, tabSelection: $tabSelection)
                 .navigationTitle("Stats")
                 .tabItem { Label("Stats", systemImage: "chart.xyaxis.line") }
