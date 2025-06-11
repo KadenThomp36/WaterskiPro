@@ -78,10 +78,10 @@
             filePath = "WaterskiPro/Views/StatsOverviewView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
-            landmarkName = "Average Score"
-            landmarkType = "9">
+            startingLineNumber = "429"
+            endingLineNumber = "429"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -94,10 +94,10 @@
             filePath = "WaterskiPro/Views/StatsOverviewView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "234"
-            endingLineNumber = "234"
-            landmarkName = "e(&quot;Avg Score&quot;, avgScore) ) PointMark( x: .value(&quot;Date&quot;, session.startTime, unit:),"
-            landmarkType = "9">
+            startingLineNumber = "441"
+            endingLineNumber = "441"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -110,10 +110,10 @@
             filePath = "WaterskiPro/Views/StatsOverviewView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "243"
-            endingLineNumber = "243"
-            landmarkName = "e(&quot;Avg Score&quot;, avgScore) ) PointMark( x: .value(&quot;Date&quot;, session.startTime, unit:),"
-            landmarkType = "9">
+            startingLineNumber = "499"
+            endingLineNumber = "499"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -126,10 +126,10 @@
             filePath = "WaterskiPro/Views/StatsOverviewView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "225"
-            endingLineNumber = "225"
-            landmarkName = "e(&quot;Avg Score&quot;, avgScore) ) PointMark( x: .value(&quot;Date&quot;, session.startTime, unit:),"
-            landmarkType = "9">
+            startingLineNumber = "432"
+            endingLineNumber = "432"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
